@@ -1,3 +1,11 @@
-<h1>
-  {{title}}
-</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 main" [style.background]="randomColor">
+      <h1 (click)="changeTitle()">
+        {{title}}
+      </h1>
+      <p [hidden]="!titleChanged">Le titre  a été changé!</p>
+      <button class="btn btn-primary" (click)="setColor()">Changer la couleur</button>
+    </div>
+  </div>
+</div>

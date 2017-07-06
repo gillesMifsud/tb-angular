@@ -1,0 +1,17 @@
+.main {
+    margin-top: 50px;
+    padding: 100px;
+    text-align: center;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+}
+
+.dark {
+    background: #455A64;
+    color: #fff;
+}
+
+.light {
+    background: #CFD8DC;
+    color: #455A64;
+}
